@@ -3,13 +3,8 @@
   margin-top: -20rem;
   
   &__heading {
-    background-image: linear-gradient(
-      to right bottom,
-      rgb(82, 204, 0),
-      rgb(0, 132, 255)
-    );
-    -webkit-background-clip: text;
-    color: transparent;
+    
+    color: rgb(83, 83, 83);
     grid-column: 2/4;
     margin-left: -3rem;
     margin-bottom: -5rem;

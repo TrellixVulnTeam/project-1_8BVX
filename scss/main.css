@@ -115,6 +115,7 @@ body {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   display: inline-block;
+  text-decoration: underline;
 }
 
 .destinations__details {
@@ -823,10 +824,7 @@ a {
 }
 
 .Explore__heading {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#52cc00), to(#0084ff));
-  background-image: linear-gradient(to right bottom, #52cc00, #0084ff);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #535353;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
