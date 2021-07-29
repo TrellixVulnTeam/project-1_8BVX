@@ -755,7 +755,7 @@ a {
 }
 
 .assistance {
-  background-image: url(../../img/hiking.jpeg);
+  background-image: url(../img/hiking.jpeg);
   background-size: cover;
   background-position: center;
   z-index: -1;
