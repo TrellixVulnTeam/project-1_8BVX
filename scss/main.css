@@ -82,9 +82,8 @@ body {
 }
 
 .btn:hover {
-  background-color: white;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .destinations {
