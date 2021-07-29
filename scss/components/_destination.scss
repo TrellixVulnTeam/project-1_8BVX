@@ -4,7 +4,6 @@
 grid-row: 2/3;
   &__heading {
     width: max-content;
- 
     grid-row: 1/2;
     grid-column: 2/3;
     font-weight: 100;
@@ -48,6 +47,7 @@ grid-row: 2/3;
         rgba(white, 0.5)
       ),
       url(../img/mountain-1.jpeg);
+      
 
     &--heading-primary {
       color: rgb(255, 254, 254);
