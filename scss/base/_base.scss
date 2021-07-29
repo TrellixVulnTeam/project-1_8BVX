@@ -20,27 +20,22 @@ body{
 
         width: 75em;
     }
-    @media only screen and (max-width: 80vw) {
+    @media only screen and (max-width: 62em) {
 
-        width: 80vw;
+        width: 62em;
     }
-    @media only screen and (max-width: 70vw) {
+    @media only screen and (max-width: 50em) {
 
-        width: 70vw;
+        width: 50em;
     }
-    @media only screen and (max-width: 60vw) {
+    @media only screen and (max-width:37.5em ) {
 
-        width: 60vw;
+        width: 37.5em;
     }
-    @media only screen and (max-width: 50vw) {
+    @media only screen and (max-width: 25em) {
 
-        width: 50vw;
+        width: 25em;
     }
-    @media only screen and (max-width: 40vw) {
-
-        width: 40vw;
-    }
-
 }
 .line__bottom--destinations {
     grid-row: 7 / 8;

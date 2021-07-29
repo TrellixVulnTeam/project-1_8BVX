@@ -18,42 +18,36 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 87.5em;
 }
 
-@media only screen and (max-width: 90vw) {
+@media only screen and (max-width: 75em) {
   body {
-    width: 90vw;
+    width: 75em;
   }
 }
 
-@media only screen and (max-width: 80vw) {
+@media only screen and (max-width: 62em) {
   body {
-    width: 80vw;
+    width: 62em;
   }
 }
 
-@media only screen and (max-width: 70vw) {
+@media only screen and (max-width: 50em) {
   body {
-    width: 70vw;
+    width: 50em;
   }
 }
 
-@media only screen and (max-width: 60vw) {
+@media only screen and (max-width: 37.5em) {
   body {
-    width: 60vw;
+    width: 37.5em;
   }
 }
 
-@media only screen and (max-width: 50vw) {
+@media only screen and (max-width: 25em) {
   body {
-    width: 50vw;
-  }
-}
-
-@media only screen and (max-width: 40vw) {
-  body {
-    width: 40vw;
+    width: 25em;
   }
 }
 
