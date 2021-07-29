@@ -1,0 +1,131 @@
+.header {
+  //header styles
+  grid-row: 1/2;
+  background-image: linear-gradient(rgba(#000, 0.5), rgba(#000, 0.5)),
+    url(../../img/header.jpeg);
+  background-size: cover;
+  &__search {
+    //search bar
+    position: relative;
+    &--icon {
+      //search bar icon
+      width: 2.5rem;
+      height: 2.5rem;
+      position: absolute;
+      left: 20%;
+      top: 47%;
+      fill: rgba(#000, 0.5);
+      @media only screen and (max-width: 37.5em) {
+        top:45%;
+     }
+    }
+    &--input{
+      border: none;
+      background-color: rgba(#fff, 0.5);
+      padding: 1.3rem 5rem;
+      padding-right: 5rem;
+      padding-left: 5rem;
+      margin-top: 3rem;
+      color: #000;
+      border-radius: 10000rem;
+      font-size: 2rem;
+      margin-left: 6rem;
+      transition: all .3s;
+      &:focus-visible{
+        outline: none;
+        background-color: transparent;
+        
+      }
+      
+      &::placeholder {
+        //search bar text
+        text-align: center;
+        color: rgba(#000, 0.5);
+      }
+    }
+  }
+  //nav
+  &__nav--1 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-top: 3.3rem;
+    text-align: center;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  &__nav--2 {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    margin-top: 3.3rem;
+    text-align: center;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  &__nav--3 {
+    grid-row: 1/2;
+    grid-column: 5/6;
+    margin-top: 3.3rem;
+    text-align: center;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  &__nav--4 {
+    grid-row: 1/2;
+    grid-column: 6/7;
+    margin-top: 3.3rem;
+    padding-right: 3rem;
+    text-align: center;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  //headings
+  &__heading-1 {
+    grid-row: 3/4;
+    grid-column: 1/5;
+    padding-left: 15rem;
+  }
+  &__heading-2 {
+    grid-row: 4/5;
+    grid-column: 1/5;
+    padding-left: 15rem;
+  }
+  //btn for header
+  &__btn {
+    grid-row: 6/7;
+    grid-column: 1/5;
+    width: max-content;
+    padding: 2rem 8rem;
+    margin-left: 15rem;
+  }
+  //JK tourism logo
+  &__logo {
+    width: 5rem;
+    height: 5rem;
+    grid-row: 7 / 8;
+    grid-column: 6 /7;
+    @media only screen and (max-width: 64em) {
+      margin-bottom: 4rem;
+    }
+  }
+  //radio buttons
+  }
+
+a {
+  // link "a" styles
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 200;
+}
+//forward arrow
+
+//backward arrow

@@ -1,0 +1,54 @@
+.assistance{
+    background-image: url(../../img/hiking.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    height: 70rem;
+    color: white;
+    filter: blur(0rem);
+    &__info{
+        margin-top: 15rem;
+        width: max-content;
+        margin-right: 0%;
+        margin-left: 5rem;
+        font-size: 4rem;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.61);
+        border-radius:1rem;
+        margin-bottom: 1rem;
+    }
+    &__number{
+        font-weight: lighter;
+        width: max-content;
+        margin-left: 5rem;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.61);
+        border-radius:1rem;
+    }
+    
+    &__heading{
+        width: 65rem;
+        z-index: 10;
+        font-size: 6rem;
+         margin-top: 10rem;
+         margin-left: 5rem;
+         padding: 0  3rem;
+        background-color: rgba(0, 0, 0, 0.61);
+        border-radius:1rem;
+        &-2{
+           font-size: 4rem;
+           display: inline-block;
+          padding-left: 2rem;
+        }
+        &-3{
+            display: inline-block;
+            padding-left: 2rem;
+        }
+        &-icon{
+            width: 4rem;
+            height: 4rem;
+            fill: white;
+            
+        }
+    }
+}
