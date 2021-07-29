@@ -14,30 +14,7 @@ html{
     html { 
     font-size: 50%;   }
 }
-body{
-    height: max-content;
-    width: 87.5em;
-    @media only screen and (max-width:75em ) {
 
-        width: 75em;
-    }
-    @media only screen and (max-width: 62em) {
-
-        width: 62em;
-    }
-    @media only screen and (max-width: 50em) {
-
-        width: 50em;
-    }
-    @media only screen and (max-width:37.5em ) {
-
-        width: 37.5em;
-    }
-    @media only screen and (max-width: 25em) {
-
-        width: 25em;
-    }
-}
 .line__bottom--destinations {
     grid-row: 7 / 8;
     grid-column: 2/3;
