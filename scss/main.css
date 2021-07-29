@@ -955,6 +955,9 @@ a {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   background-color: #f1f1f1;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .handicrafts__heading-1 {
