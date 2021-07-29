@@ -18,6 +18,9 @@ html {
 }
 
 body {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   width: 87.5em;
 }
 
@@ -377,6 +380,7 @@ body {
 }
 
 .footer {
+  height: max-conten5;
   -ms-grid-row: 7;
   -ms-grid-row-span: 1;
   grid-row: 7/8;
@@ -444,34 +448,35 @@ body {
 }
 
 .footer__logos-twitter {
-  width: 7rem;
-  height: 7rem;
-  margin-left: 6rem;
+  width: 5rem;
+  height: 5rem;
+  margin-left: 8rem;
   fill: #929292;
 }
 
 .footer__logos-facebook {
-  margin-left: 6rem;
-  width: 7rem;
-  height: 7rem;
+  margin-left: 8rem;
+  width: 5rem;
+  height: 5rem;
   fill: #929292;
 }
 
 .footer__logos-youtube {
-  margin-left: 6rem;
-  width: 7rem;
-  height: 7rem;
+  margin-left: 8rem;
+  width: 5rem;
+  height: 5rem;
   fill: #929292;
 }
 
 .footer__logos-instagram {
-  margin-left: 6rem;
-  width: 7rem;
-  height: 7rem;
+  margin-left: 8rem;
+  width: 5rem;
+  height: 5rem;
   fill: #929292;
 }
 
 .footer__copy-right {
+  margin-top: 3rem;
   -ms-grid-row: 6;
   -ms-grid-row-span: 1;
   grid-row: 6/7;
@@ -485,9 +490,9 @@ body {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 100vh (max-content)[6] 50vh;
-      grid-template-rows: 100vh repeat(6, -webkit-max-content) 50vh;
-      grid-template-rows: 100vh repeat(6, max-content) 50vh;
+  -ms-grid-rows: 100vh (max-content)[6];
+      grid-template-rows: 100vh repeat(6, -webkit-max-content);
+      grid-template-rows: 100vh repeat(6, max-content);
 }
 
 .header {

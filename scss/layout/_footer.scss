@@ -1,4 +1,5 @@
 .footer{
+    height: max-conten5;
     grid-row: 7/8;
     &__about{
         font-size: 1.5rem;
@@ -40,31 +41,32 @@
         grid-row: 5/6;
         grid-column:2/4 ;
         &-twitter{
-            width: 7rem;
-            height: 7rem;
-            margin-left: 6rem;
+            width: 5rem;
+            height: 5rem;
+            margin-left: 8rem;
             fill: rgb(146, 146, 146);
         }
         &-facebook{
-            margin-left: 6rem;
-            width: 7rem;
-            height: 7rem;
+            margin-left: 8rem;
+            width: 5rem;
+            height: 5rem;
             fill: rgb(146, 146, 146);
         }
         &-youtube{
-            margin-left: 6rem;
-            width: 7rem;
-            height: 7rem;
+            margin-left: 8rem;
+            width: 5rem;
+            height: 5rem;
             fill: rgb(146, 146, 146);
         }
         &-instagram{
-            margin-left: 6rem;
-            width: 7rem;
-            height: 7rem;
+            margin-left: 8rem;
+            width: 5rem;
+            height: 5rem;
             fill: rgb(146, 146, 146);
         }
     }
     &__copy-right{
+        margin-top: 3rem;
         grid-row: 6/7;
         grid-column:2/4 ;
         font-size: 2.5rem;

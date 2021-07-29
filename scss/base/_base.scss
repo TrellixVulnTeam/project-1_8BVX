@@ -15,6 +15,7 @@ html{
     font-size: 50%;   }
 }
 body{
+    height: max-content;
     width: 87.5em;
     @media only screen and (max-width:75em ) {
 
