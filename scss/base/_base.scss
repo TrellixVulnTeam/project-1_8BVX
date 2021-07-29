@@ -20,6 +20,26 @@ body{
 
         width: 90vw;
     }
+    @media only screen and (max-width: 80vw) {
+
+        width: 80vw;
+    }
+    @media only screen and (max-width: 70vw) {
+
+        width: 70vw;
+    }
+    @media only screen and (max-width: 60vw) {
+
+        width: 60vw;
+    }
+    @media only screen and (max-width: 50vw) {
+
+        width: 50vw;
+    }
+    @media only screen and (max-width: 40vw) {
+
+        width: 40vw;
+    }
 
 }
 .line__bottom--destinations {

@@ -27,6 +27,36 @@ body {
   }
 }
 
+@media only screen and (max-width: 80vw) {
+  body {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 70vw) {
+  body {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 60vw) {
+  body {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 50vw) {
+  body {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 40vw) {
+  body {
+    width: 40vw;
+  }
+}
+
 .line__bottom--destinations {
   -ms-grid-row: 7;
   -ms-grid-row-span: 1;
