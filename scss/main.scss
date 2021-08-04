@@ -1,20 +1,179 @@
-@import "absract/functions";
-@import "absract/mixins";
-@import "absract/variable";
+*{
+    padding: 0%;
+    margin: 0rem;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+}
+.text-block{
+    display: block;
+}
+.text-default{
+    color: white;
+    font-weight: 700 !important;
+}
+.margin-top-sm{
+    margin-top: 3rem !important;
+}
+.navbar{
+    margin-bottom: 0% !important;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: 10vw !important;
+    @media only screen and(max-width:768px) {
+        margin-left: 0% !important;
+    }
+}
+.navbar-nav > li{
+    text-align: center;
+    margin-left: 2vw;
+    @media only screen and(max-width:768px) {
+        text-align: left;
+    }
+}
+.navbar-brand{
+    @media only screen and(max-width:768px) {
+        display: none;
+    }
 
-@import "base/animations";
-@import "base/base";
-@import "base/typography";
+}
+.navbar-none{
+    @media only screen and(max-width:768px) {
+        display: none;
+    }
+}
+.drop-1{
+    display: none;
+    @media only screen and(max-width:768px) {
+        display: unset;
+    }
+}
+.nav-2{
+    margin-left: 0% !important;
+}
+.nav-3{
+    margin-left: 70vw !important;
+}
+.nav-4{
+    margin-left: -2vw !important;
+}
+.btn-1{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+}
+.dropdown-1{
+    background-color: rgb(37, 37, 37);
+    z-index: 10000 !important;
 
-@import "components/button";
-@import "components/destination";
-@import "components/line__bottom";
+}
+.dropdown-1 > li > a{
+   color: white;
+}
+.container{
+    margin-left: 0%;
+    padding: 0%;
+    width: 100%;
+}
+.main-img{
+    display: block;
+    
+    min-height: 40vh;
+}
+.background-dark{
+    text-align: center;
+    width: 100%;
+}
+span{
+    color: #6bf118;
+}
+.display-1{
+    font-size: 5rem !important;
+}
+.text-light{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.text-small{
+    color: white;
+    font-weight:800;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.text-muted{
+    font-weight: 200;
+}
+.w-50{
+    text-align: center;
+    padding: 1rem 20%;
+}
+.img-logo{
+    
+    &-1{
+        
+        width: 10%;
+    margin-left: 35%;
+    margin-top: 3vh;
+    display: inline-block;
+    @media only screen and(max-width:992px) {
+        margin-left: 0%;
+        width: 15%;
 
-@import "layout/footer";
-@import "layout/grid";
-@import "layout/header";
-@import "layout/navigations";
+    }
+    @media only screen and(max-width:480px) {
+        width: 20%;
+    }
+    }
+    &-2{
+        margin-top: 5vh;
+        width: 15%;
+        margin-left: 5%;
+        display: inline-block;
+        @media only screen and(max-width:992px) {
+            margin-left: 0%;
+            width: 20%;
+        }
+        @media only screen and(max-width:480px) {
+            width: 25%;
+        }
+    }
+}
 
-@import "sections/assistance";
-@import "sections/cards";
-@import "sections/handicrafts";
+.text-align{
+    text-align: center;
+    &-2{
+    text-align: center;
+    }
+}
+.info{
+    display: flex;
+    width:100%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3rem;
+}
+.cores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin-right: 10vw;
+    
+}
+h2{
+    width: max-content !important;
+}
+.video-1{
+    width: 90%;
+   margin: 0% 5vw;
+}
